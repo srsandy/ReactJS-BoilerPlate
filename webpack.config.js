@@ -33,12 +33,7 @@ var config = {
     ]
   },
   plugins : [
-  	extractPlugin,
-     new webpack.optimize.UglifyJsPlugin({
-        "process.env": { 
-            NODE_ENV: JSON.stringify("production") 
-   }
-        })
+  	extractPlugin
   ]
 };
 
