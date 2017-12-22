@@ -33,6 +33,11 @@ var config = {
       }
     ]
   },
+  ,
+  devtool: 'cheap-module-eval-source-map',
+  devServer: {
+     contentBase: path.join(__dirname, 'public')
+  },
   plugins : [
   	extractPlugin
   ]
