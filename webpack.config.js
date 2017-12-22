@@ -28,7 +28,8 @@ var config = {
       {
         test : /\.js$/,
         include : APP_DIR,
-        loader : 'babel-loader'
+        loader : 'babel-loader',
+        exclude: /node_modules/
       }
     ]
   },
